@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+        web:
+                image: image-2:latest
+                ports:
+                        - 3000:8080
+        web2:
+                image: image-2:latest
+                ports:
+                        - 3001:8080
